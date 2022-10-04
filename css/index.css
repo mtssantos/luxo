@@ -1,0 +1,46 @@
+.navbar-brand{
+    display: flex;
+}
+
+.area-title{
+    display: block;
+    padding-left: 15px;
+}
+
+#title{
+    color: #1BAADA;
+    font-style: italic;
+}
+
+#subtitle{ 
+    color: white;
+    font-style: italic;
+}
+
+.links > ul > li{
+    padding-top: 2rem;
+    margin-right: 1rem;
+}
+.links > ul > li :after {
+    content: '';
+    margin-left: 1rem;
+    display: inline-block;
+    position: absolute;
+    height: 20px;
+    width: 1px;
+    background: #fff;
+
+}
+
+.links > ul > li > a{
+    line-height: 20px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    text-decoration: none
+}
+
+  
+.links > ul > li:last-child ::after {
+    display: none;
+}
+
