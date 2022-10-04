@@ -44,3 +44,20 @@
     display: none;
 }
 
+.legend{
+    background-color: rgba(000, 000, 000, 0.5);
+    width: 400px;
+    text-align: left;
+    padding: 25px;
+    margin: 0;
+    position: ;
+    bottom: 200px;
+    left:850px;
+}
+
+.legend > span{
+    color: white;  
+    font-style: italic; 
+    font-size: 19px;
+    
+}
