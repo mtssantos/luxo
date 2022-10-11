@@ -44,20 +44,22 @@
     display: none;
 }
 
-.legend{
+.box-legend{
     background-color: rgba(000, 000, 000, 0.5);
     width: 400px;
     text-align: left;
     padding: 25px;
     margin: 0;
-    position: ;
-    bottom: 200px;
-    left:850px;
+    position: relative;
+    bottom: 210px;
+    left: 53%;
 }
 
-.legend > span{
+.box-legend > .row > span{
     color: white;  
     font-style: italic; 
-    font-size: 19px;
-    
+    font-size: 19px;  
 }
+
+
+
