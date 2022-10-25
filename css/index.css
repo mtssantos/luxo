@@ -1,6 +1,9 @@
 .navbar-brand{
     display: flex;
 }
+.menu{
+    max-width: 1000px;
+}
 
 .area-title{
     display: block;
@@ -46,19 +49,38 @@
 
 .box-legend{
     background-color: rgba(000, 000, 000, 0.5);
-    width: 400px;
+    width: 380px;
     text-align: left;
     padding: 25px;
     margin: 0;
     position: relative;
-    bottom: 210px;
+    bottom: 250px;
     left: 53%;
+    padding-bottom: 40px;
 }
 
-.box-legend > .row > span{
+.box-legend > span{
     color: white;  
     font-style: italic; 
-    font-size: 19px;  
+    font-size: 22px;
+}
+
+.sub-legend{
+    margin-top: 1.75rem;
+    display: flex;
+    height: 40px;
+}
+
+
+#legend{
+    padding-left: 15px;
+    color: white;
+    font-style: italic;
+}
+
+#text-gold{
+    color: #BFA87E;
+    font-size: 21px;
 }
 
 
