@@ -82,15 +82,22 @@
     color: #BFA87E;
     font-size: 21px;
 }
+.box-text{
+    padding-bottom: 35px;
+}
 
 .title-box{
     display: flex;
     margin-top: -180px;
+    padding: 2px 2px;
+}
+.title-box > img{
+    padding-left: 5px;
 }
 .title-box > span{
     color:#fff;
     font-style: italic;
-    font-size: 15pt;
+    font-size: 16pt;
     padding: 5px;
 }
 #box-1{
@@ -99,6 +106,12 @@
 #box-2{
     background-color: #C6B07F;
 }
-
+.text-area{
+    line-height: 1.3rem;
+}
+.text-area > h4, p{
+    padding: 0px 10px 10px 0px;
+    font-style: italic;
+}
 
 
