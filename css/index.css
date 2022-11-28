@@ -1,30 +1,33 @@
-.navbar-brand{
+.navbar-brand {
     display: flex;
 }
-.menu, .box-text{
+
+.menu,
+.box-text {
     max-width: 1000px;
 }
 
-.area-title{
+.area-title {
     display: block;
     padding-left: 15px;
 }
 
-#title{
+#title {
     color: #1BAADA;
     font-style: italic;
 }
 
-#subtitle{ 
+#subtitle {
     color: white;
     font-style: italic;
 }
 
-.links > ul > li{
+.links>ul>li {
     padding-top: 2rem;
     margin-right: 1rem;
 }
-.links > ul > li :after {
+
+.links>ul>li :after {
     content: '';
     margin-left: 1rem;
     display: inline-block;
@@ -35,31 +38,32 @@
 
 }
 
-.links > ul > li > a{
+.links>ul>li>a {
     line-height: 20px;
     font-family: "Arial", sans-serif;
     font-size: 14px;
     text-decoration: none
 }
 
-  
-.links > ul > li:last-child ::after {
+
+.links>ul>li:last-child ::after {
     display: none;
 }
 
 
-.box-legend > span{
-    color: white;  
-    font-style: italic; 
+.box-legend>span {
+    color: white;
+    font-style: italic;
     font-size: 22px;
 }
 
-.sub-legend{
+.sub-legend {
     margin-top: 1.75rem;
     display: flex;
     height: 40px;
 }
-.box-legend{
+
+.box-legend {
     background-color: rgba(000, 000, 000, 0.5);
     width: 380px;
     text-align: left;
@@ -71,59 +75,68 @@
     padding-bottom: 40px;
 }
 
-#legend{
+#legend {
     padding-left: 15px;
     color: white;
     font-style: italic;
 }
 
-#text-gold{
+#text-gold {
     color: #BFA87E;
     font-size: 21px;
 }
-.box-text{
+
+.box-text {
     padding-bottom: 35px;
 }
 
-.image-box{
+.image-box {
     margin-bottom: -80px;
 }
 
-.title-box{
+.title-box {
     display: flex;
     margin-top: -100px;
     padding: 2px 2px;
 }
-.title-box > img{
+
+.title-box>img {
     padding-left: 5px;
 }
-.title-box > span{
-    color:#fff;
+
+.title-box>span {
+    color: #fff;
     font-style: italic;
     font-size: 16pt;
     padding: 5px;
 }
-#box-1{
+
+#box-1 {
     background-color: #1BB4E8;
 }
-#box-2{
+
+#box-2 {
     background-color: #C6B07F;
 }
-.text-area{
+
+.text-area {
     line-height: 1.3rem;
     margin-bottom: 100px;
 }
-.text-area > h4, p{
+
+.text-area>h4,
+p {
     padding: 0px 10px 10px 0px;
     font-style: italic;
 }
 
 @media (max-width: 500px) {
-    .links > ul > li{
-        padding-top:1rem;
+    .links>ul>li {
+        padding-top: 1rem;
         margin-right: 1rem;
     }
-    .links > ul > li :after {
+
+    .links>ul>li :after {
         content: none;
         margin-left: 1rem;
         display: inline-block;
@@ -131,30 +144,49 @@
         height: 20px;
         width: 1px;
         background: #fff;
-    
+
     }
-   .box-legend{
-    width: 100%;
-    margin: 0;
-    left: 0;
-    height: 160px;
-    bottom: -10px;
-    padding: 20px;
-    margin-bottom: 120px;
-   }
-   .box-legend > span{
-    font-size: 17pt;
-   }
-   .sub-legend{
-    margin: 0;
-   }
-   .image-box{
+
+    .box-legend {
+        width: 100%;
+        margin: 0;
+        left: 0;
+        height: 160px;
+        bottom: -10px;
+        padding: 20px;
+        margin-bottom: 120px;
+    }
+
+    .box-legend>span {
+        font-size: 17pt;
+    }
+
+    .sub-legend {
+        margin: 0;
+    }
+
+    .image-box {
         margin-bottom: 0px;
-   }
+    }
+
+    form input {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    form fieldset {
+        padding: 20px 80px;
+        
+    }
+
+
 }
 
 @media (min-width: 500px) {
-    .box-legend{
+    .box-legend {
         background-color: rgba(000, 000, 000, 0.5);
         width: 380px;
         text-align: left;
@@ -165,6 +197,67 @@
         left: 50%;
         padding-bottom: 40px;
     }
-     
+
 }
 
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+form fieldset {
+    padding: 20px 100px;
+    border: 2px solid #ccc;
+}
+
+form legend {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+}
+
+form input[type=text] {
+    font-family: tahoma;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 13px;
+    border: 1px solid #ccc;
+    width: 100%;
+
+}
+
+
+.input {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.input span {
+    margin-left: 13px;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+form textarea {
+    font-family: tahoma;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    width: 100%;
+    height: 140px;
+    padding: 10px 13px;
+    resize: none;
+}
+
+form input[type=submit] {
+    margin-top: 30px;
+    border: 0;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid rgb(130, 130, 130);
+    color: white;
+    background-color: rgb(140, 140, 140);
+}
