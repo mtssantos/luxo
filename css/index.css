@@ -4,7 +4,7 @@
 
 .menu,
 .box-text {
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .area-title {
@@ -168,10 +168,6 @@ p {
     .image-box {
         margin-bottom: 0px;
     }
-    form {
-        width: 90%;
-        margin: 0px;
-    }
 
 
 }
@@ -193,66 +189,5 @@ p {
 }
 
 form {
-    max-width: 600px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-form fieldset {
-    padding: 10px;
-    border: 2px solid #ccc;
-}
-
-form legend {
-    text-align: center;
-    font-size: 20px;
-    color: rgb(130, 130, 130);
-    font-weight: bold;
-}
-
-form input[type=text] {
-    font-family: tahoma;
-    display: inline-block;
-    margin-top: 30px;
-    padding: 10px 13px;
-    border: 1px solid #ccc;
-    width: 100%;
-
-}
-
-
-.input {
-    display: inline-block;
-    text-align: left;
-    margin-top: 20px;
-}
-
-.input span {
-    margin-left: 13px;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-form textarea {
-    font-family: tahoma;
-    border: 1px solid #ccc;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    width: 100%;
-    height: 140px;
-    padding: 10px 13px;
-    resize: none;
-}
-
-form input[type=submit] {
-    margin-top: 30px;
-    border: 0;
-    width: 140px;
-    height: 40px;
-    font-size: 16px;
-    cursor: pointer;
-    border: 2px solid rgb(130, 130, 130);
-    color: white;
-    background-color: rgb(140, 140, 140);
+    padding: 23px;
 }

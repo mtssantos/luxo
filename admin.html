@@ -38,10 +38,10 @@
               <a class="nav-link text-light" href="#">TRIPULAÇÃO</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-primary" href="contato.html">CONTATO</a>
+              <a class="nav-link text-light" href="contato.html">CONTATO</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link text-light" href="admin.html">ADMIN</a>
+                <a class="nav-link text-primary" href="admin.html">ADMIN</a>
             </li>
           </ul>
         </div>
@@ -52,19 +52,15 @@
       <div class="container">
         <form>
           <div class="form-group">
-            <label for="formNome">Nome:</label>
-            <input type="text" class="form-control" id="formNome" placeholder="Digite o seu nome">
+            <label for="formEmail">Email:</label>
+            <input type="email" class="form-control" id="formEmail" placeholder="Digite o email">
           </div>
           <div class="form-group">
-            <label for="formEmail">E-mail:</label>
-            <input type="email" class="form-control" id="formEmail" placeholder="Digite seu e-mail">
-          </div>
-          <div class="form-group">
-            <label for="formMensagem">Mensagem</label>
-            <textarea class="form-control" id="formMensagem" rows="3"></textarea>
+            <label for="formSenha">Senha:</label>
+            <input type="password" class="form-control" id="formSenha" placeholder="Digite a senha">
           </div>
           <div class="text-center">
-            <button class="btn btn-success" id="btnEnvio" onclick="addMensagem()">Enviar Dados</button>
+            <button class="btn btn-success" id="btnEnvio" onclick="Autenticar()">Enviar Dados</button>
           </div>
         </form>
       </div>
